@@ -1,9 +1,9 @@
 class Flyradar < Formula
   desc "flyradar - Manage your Fly.io resources in style"
   homepage "https://github.com/furkankly/flyradar"
-  url "https://github.com/furkankly/flyradar/releases/download/0.1.0-rc.2/flyradar-0.1.0-rc.2-x86_64-apple-darwin.tar.gz"
-  sha256 "9ae66c09172940e4946a0304893090b130eb1373a3a1e8e97afe8de36caf8003"
-  version "0.1.0-rc.2"
+  url "https://github.com/furkankly/flyradar/releases/download/0.1.0/flyradar-0.1.0-x86_64-apple-darwin.tar.gz"
+  sha256 "8d703e1a995805020f3570d12c142bd8a0754c43afa55a95cb94130d6d3c619e"
+  version "0.1.0"
   
   def install
     bin.install "flyradar"
